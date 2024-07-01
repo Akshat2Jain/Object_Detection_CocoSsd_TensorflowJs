@@ -6,6 +6,8 @@ This project demonstrates the use of the COCO-SSD pre-trained model for object r
 
 The application allows users to upload an image, and it uses the COCO-SSD model to detect and classify objects within the image. The predictions are displayed along with their confidence scores.
 
+![WhatsApp Image 2024-07-01 at 6 16 13 PM](https://github.com/Akshat2Jain/Object_Detection_CocoSsd_TensorflowJs/assets/101265586/ee55ad78-7fc0-4e86-9012-3075dbbff8a6)
+
 ## What is COCO-SSD?
 
 COCO-SSD stands for Common Objects in Context - Single Shot MultiBox Detector. It is a pre-trained deep learning model designed for object detection. The model has been trained on the COCO dataset, which contains a wide variety of common objects in everyday scenes.
