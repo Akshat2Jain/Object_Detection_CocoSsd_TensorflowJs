@@ -1,8 +1,38 @@
-# React + Vite
+# Object Recognition using COCO-SSD and TensorFlow.js
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project demonstrates the use of the COCO-SSD pre-trained model for object recognition in images. It is built using React and TensorFlow.js.
 
-Currently, two official plugins are available:
+## Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+The application allows users to upload an image, and it uses the COCO-SSD model to detect and classify objects within the image. The predictions are displayed along with their confidence scores.
+
+## What is COCO-SSD?
+
+COCO-SSD stands for Common Objects in Context - Single Shot MultiBox Detector. It is a pre-trained deep learning model designed for object detection. The model has been trained on the COCO dataset, which contains a wide variety of common objects in everyday scenes.
+
+### Key Features of COCO-SSD:
+- **Object Detection**: Identifies the presence and location of objects within an image.
+- **Pre-trained**: The model has been trained on a large dataset, enabling it to recognize a wide range of objects with high accuracy.
+- **Real-time Performance**: Designed to be efficient, allowing for real-time object detection.
+
+## What is TensorFlow.js?
+
+TensorFlow.js is an open-source library that allows you to define, train, and run machine learning models entirely in the browser using JavaScript. It provides a flexible and powerful platform for building and deploying machine learning models on the web.
+
+### Key Features of TensorFlow.js:
+- **Browser-based**: Run machine learning models directly in the browser.
+- **Hardware Acceleration**: Utilizes WebGL for GPU-accelerated computations.
+- **Flexibility**: Compatible with existing TensorFlow models and can be used to create new models from scratch.
+
+## Project Structure
+
+- **`ObjectRecognition.js`**: Main component that handles image upload, model loading, and displaying predictions.
+- **Dependencies**: Includes `@tensorflow/tfjs` and `@tensorflow-models/coco-ssd`.
+
+## How to Run the Project
+
+1. Clone the repository:
+   ```bash
+   git clone 
+   npm i
+   npm run dev
