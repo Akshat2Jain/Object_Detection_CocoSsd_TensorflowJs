@@ -44,3 +44,7 @@ TensorFlow.js is an open-source library that allows you to define, train, and ru
    docker build -t object_detection .
    docker run -d -p 5173:5173 object_detection
 
+## PULL from DockerHub
+
+```bash
+   docker pull akshat2jain/object_detection
